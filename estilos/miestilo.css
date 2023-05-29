@@ -1,0 +1,35 @@
+#titulo { 
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#porcentaje {
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.container {
+    
+    display: flex;
+    justify-content:center;
+    text-align:center;
+    margin:5px;
+    padding:3px;
+
+    
+}
+.estudiante {
+border-style:groove;
+border-color: blue;
+
+}
+
+.trainee {
+   border-style: groove;
+    border-color: lightskyblue; 
+}
+
+.junior {
+    border-style:groove;
+    border-color: orange;
+}

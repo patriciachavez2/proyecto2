@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+   <h1>FORMULARIO DE PRACTICA CON HTML Y JS </h1> 
+
+   <div classs="container bg-light border rounded m-3 p-2 d-flex flex-column align-items-center">
+        <div class="fs-4 my-3 text-center">Registro de usuario</div>
+        <div >
+            <form action="#" method="post">
+
+                <input type="email" onkeyup="validarUsu()" onchange="validarUsu()" name="user" id="user" class="form-control mb-3" placeholder="Usuario">
+                
+                <input type="password"  name="pass" id="pass" class="form-control mb-3" placeholder="contrasena" required>
+                <input type="password"  name="repass" id="repass" class="form-control mb-3" placeholder="repetir contrasena" required>
+                <input type="submit" value="registrar " class="btn btn-primary mb-3 "> 
+                <div id="mensaje"></div>
+            </form>
+        </div>
+   </div>
+   
+
+
+<script src="../carpeta_js/formularioPractica.js"></script>
+</body>
+</html>
